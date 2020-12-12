@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:background="@color/white"
+              android:fitsSystemWindows="true">
+
+    <com.fwtai.widget.TitleBar
+        android:id="@+id/titlebar_tab_index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tab_index_tv_manage"
+                android:background="@drawable/shape_corner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="14dp"
+                android:paddingTop="14dp"
+                android:text="经营场所录入"/>
+
+            <TextView
+                android:id="@+id/tab_index_tv_environment"
+                android:background="@drawable/shape_corner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="14dp"
+                android:paddingTop="14dp"
+                android:text="环境监测录入"/>
+
+            <TextView
+                android:id="@+id/tab_index_tv_employee"
+                android:background="@drawable/shape_corner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="26sp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="14dp"
+                android:paddingTop="14dp"
+                android:text="从业人员录入"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

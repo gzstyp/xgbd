@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">疫情检测</string>
+
+    <!-- tab文字及对应的标题 -->
+    <string name="tab_tv_index">首页</string>
+    <string name="tab_tv_statistics">统计</string>
+    <string name="tab_tv_owner">我的</string>
+</resources>
