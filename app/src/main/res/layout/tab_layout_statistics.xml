@@ -10,4 +10,42 @@
         android:id="@+id/title_bar_order"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp">
+
+        <RadioGroup
+            android:id="@+id/rg_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="30.0dip"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rb_jinengrenzheng"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="应检尽检"
+                android:textColor="@color/radiotext_color"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rb_quanzhifabu"
+                android:layout_width="0.0dip"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:button="@null"
+                android:gravity="center"
+                android:text="愿检尽检"
+                android:textColor="@color/radiotext_color"
+                android:textSize="18sp" />
+        </RadioGroup>
+    </RelativeLayout>
+    <include layout="@layout/fragment_viewpager" />
 </LinearLayout>
